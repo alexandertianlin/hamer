@@ -1,0 +1,29 @@
+# Large model files
+hamer_demo_data.tar.gz*
+*.pth
+*.ckpt
+*.pkl
+*.npz
+*.onnx
+*.task
+
+# HAMER source (already on GitHub)
+hamer_code/
+third-party/
+
+# Model data symlink target
+_DATA/
+D:/hamer_data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp and junk
+*.part
+*.tmp
+*.jpg
+*.png
+test_cam.jpg
+venv/
+.venv/
